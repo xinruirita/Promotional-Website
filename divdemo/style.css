@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html{
+  margin: 0px;
+  padding:10px;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+.Contentparent{
+  display:inline-block;
+  width:420px;
+  height:480px;
+  padding:20px;
+  border: 10px solid blue;
+  background-color: white;
+  text-align:top;
+}
+
+.Contentchild {
+  text-align: center;
+  background-color: Orange;
+}
